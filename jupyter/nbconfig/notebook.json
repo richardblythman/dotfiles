@@ -1,0 +1,9 @@
+{
+	"keys": {
+		"command": {
+			"bind": {
+				"Shift-A":"jupyter-notebook:run-all-cells-above"
+			}
+		}
+	},
+}

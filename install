@@ -1,0 +1,10 @@
+#!/usr/bin/env bash#!/usr/bin/env bash#!/bin/bash
+
+BASEDIR=~/code/dotfiles
+
+git clone https://github.com/richardblythman/dotfiles.git
+cd dotfiles
+
+ln -s ${BASEDIR}/tmux.conf ~/.tmux.conf
+ln -s ${BASEDIR}/jupyter ~/.jupyter
+
