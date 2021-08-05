@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [[ ! -d $BASEDIR/.tmux/plugins/tpm ]]; then
+    mkdir -p $BASEDIR/.tmux/plugins
+    git clone https://github.com/tmux-plugins/tpm $BASEDIR/.tmux/plugins/tpm
+fi
+
+
+

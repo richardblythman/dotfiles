@@ -1,0 +1,22 @@
+ffmpeg
+htop
+openssh-server
+openvpn
+rsync
+ssh
+tmux
+youtube-dl
+
+curl
+wget
+
+install vim
+install tmux
+install python3 
+install python-pip 
+install vlc 
+install openssh-server 
+install nvidia-cuda-toolkit
+install ffmpeg
+install speedtest-cli 
+install git

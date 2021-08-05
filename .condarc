@@ -1,0 +1,14 @@
+# strict priority and conda-forge at the top will ensure
+# that all of your packages will be from conda-forge unless they only exist on defaults
+channel_priority: strict
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+# when using "conda create" for envs these packages will always be installed
+# adjust that list according your needs, the packages below are just a suggestion!
+create_default_packages:
+  - ipykernel
+  - jupyter
+  - pip
